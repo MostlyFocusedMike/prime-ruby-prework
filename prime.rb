@@ -51,5 +51,5 @@ def prime2?(num)
   sieve(num).include?(num)
 end
 
-puts Benchmark.measure {prime2?(179424673)}
-puts prime2?(179424673)
+puts Benchmark.measure {prime?(179424673)}
+puts prime?(179424673)
